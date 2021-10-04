@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+  font-family: 'Caramel', cursive;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+a{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Courgette', cursive;
+}
+.travel_mainDiv{
+    border: 1px solid #c1c1c1;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
+.travel_mainDiv img{
+    width: 100%;
+}
+.travel_mainDiv hr{
+    width: 230px;
+}
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
+}
+.environment_li{
+    margin-top: 13px;
+}
+.environment_li h4{
+    border-bottom:1px solid white ;
+    padding: 8px;
+
+}
+.environment_li img{
+    border-radius: 25px;
+}
+.environment_li p{
+    margin-top: 10px;
+}
